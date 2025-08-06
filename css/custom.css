@@ -1,0 +1,25 @@
+/* �����������壺��ͼ������ */
+@font-face {
+    font-family: 'STDongGuanTi';
+    src: url('/fonts/ShangTuDongGuanTi.ttf') format('truetype');
+    font-display: swap;
+}
+
+/* ����������壺Google Sans Code */
+@font-face {
+    font-family: 'Google Sans Code';
+    src: url('/fonts/GoogleSansCode-VariableFont_wght.ttf') format('truetype');
+    font-display: swap;
+}
+
+/* Ӧ�������� */
+body {
+    font-family: 'STDongGuanTi', sans-serif;
+}
+
+/* Ӧ���ڴ���� */
+code,
+pre,
+.hljs {
+    font-family: 'Google Sans Code', Consolas, monospace !important;
+}
